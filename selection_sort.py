@@ -9,8 +9,8 @@ n = len(array)
 #Sorting
 
 for i in range(0,n):
-    s = i
-    c = i
+    s = i #Smallest element currently
+    c = i #Position where next smallest element needs to be inserted
 
     for j in range(s+1, n):
         if array[j] < array[s]:
